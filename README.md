@@ -6,7 +6,7 @@ pip install requirements.txt
 ```
 
 ## PRPE
- - From [Semi-automatic Quasi-morphological Word Segmentation for Neural Machine Translation](https://link.springer.com/chapter/10.1007/978-3-319-97571-9_23)
+ - Originally from [Semi-automatic Quasi-morphological Word Segmentation for Neural Machine Translation](https://link.springer.com/chapter/10.1007/978-3-319-97571-9_23)
  - The base code for PRPE was taken from https://github.com/zuters/prpe.
  - Samples of the heuristics separated out from the main algorithm can be accessed below:
   -  [Quechua Heuristic](https://github.com/smaint/PRPE-Translator/blob/main/qz_heuristic.py) 
