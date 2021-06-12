@@ -25,7 +25,6 @@ for v in nonprefixes_qz:
             
 def is_good_root_qz(part,word):
     if part in ["noqa", "qan", "pay"]: return True
-    #if part[0].isupper(): return True # doesnt do anything rn
     return len(part)>3 and is_good_part_generic(part)
 
 def is_good_postfix_qz(part):
@@ -35,7 +34,7 @@ def is_good_postfix_qz(part):
         for suffix in common_suffixes_qz:
             if suffix in part:
                 return True
-        if containsvowel(part[0]): # test what happens if we dont have this
+        if containsvowel(part[0]):
             return False
         if not is_good_part_generic(part):
             return False
