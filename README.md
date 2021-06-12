@@ -14,7 +14,7 @@ pip install requirements.txt
     -  The generic heuristic (the general parameters of PRPE) can be found [here](https://github.com/smaint/PRPE-Translator/blob/main/generic_heuristic.py)
 
 ## Datasets
- - The data we cleaned is found in `data/cleaned_source`. `test.es.txt` and `test.qz.txt` were created by random shuffling of all of the parallel lines. The source data from Annete Rios can be found [here](https://github.com/a-rios/squoia).
+ - The data we cleaned is found in `data/cleaned_source`. `test.es.txt` and `test.qz.txt` were created by random shuffling of all of the parallel lines. The source data from Annette Rios can be found [here](https://github.com/a-rios/squoia).
  - The Religious, News, and General Indonesian-English datasets from [Benchmarking Multidomain English-Indonesian Machine Translation](https://www.aclweb.org/anthology/2020.bucc-1.6.pdf) can be found at their [repository here](https://github.com/gunnxx/indonesian-mt-data).
  - The Religious and Magazine data from [Neural machine translation with a polysynthetic low resource language ](https://link.springer.com/article/10.1007/s10590-020-09255-9) can be found [here](https://github.com/johneortega/mt_quechua_spanish).
 
