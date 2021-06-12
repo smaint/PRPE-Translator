@@ -5,6 +5,14 @@
 pip install requirements.txt
 ```
 
+## PRPE
+ - From [Semi-automatic Quasi-morphological Word Segmentation for Neural Machine Translation](https://link.springer.com/chapter/10.1007/978-3-319-97571-9_23)
+ - The base code for PRPE was taken from https://github.com/zuters/prpe.
+ - Samples of the heuristics separated out from the main algorithm can be accessed below:
+  -  [Quechua Heuristic](https://github.com/smaint/PRPE-Translator/blob/main/qz_heuristic.py) 
+  -  [Indonesian Heuristic](https://github.com/smaint/PRPE-Translator/blob/main/id_heuristic.py)
+  -  The generic heuristic (the general parameters of PRPE) can be found [here](https://github.com/smaint/PRPE-Translator/blob/main/generic_heuristic.py)
+
 ## Datasets
  - The data we cleaned is found in `data/cleaned_source`. `test.es.txt` and `test.qz.txt` were created by random shuffling of all of the parallel lines. The source data from Annete Rios can be found [here](https://github.com/a-rios/squoia).
  - The Religious, News, and General Indonesian-English datasets from [Benchmarking Multidomain English-Indonesian Machine Translation](https://www.aclweb.org/anthology/2020.bucc-1.6.pdf) can be found at their [repository here](https://github.com/gunnxx/indonesian-mt-data).
@@ -28,11 +36,3 @@ The pipeline can take in several flags:
  - `--batch_size` is the batch size for training. Default is 64.
  - `--filter_too_long` specifies the max token length of a line in the training set. Any line that passes this value is filtered out. Default is no filtering.
 The pipeline will automatically test the model after training is finished and output a BLEU and CHRF score.
-
-## PRPE
- - From [Semi-automatic Quasi-morphological Word Segmentation for Neural Machine Translation](https://link.springer.com/chapter/10.1007/978-3-319-97571-9_23)
- - The base code for PRPE was taken from https://github.com/zuters/prpe.
- - Samples of the heuristics separated out from the main algorithm can be accessed below:
-  -  [Quechua Heuristic](https://github.com/smaint/PRPE-Translator/blob/main/qz_heuristic.py) 
-  -  [Indonesian Heuristic](https://github.com/smaint/PRPE-Translator/blob/main/id_heuristic.py)
-  -  The generic heuristic (the general parameters of PRPE) can be found [here](https://github.com/smaint/PRPE-Translator/blob/main/generic_heuristic.py)
