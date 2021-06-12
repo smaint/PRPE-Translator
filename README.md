@@ -28,7 +28,7 @@ The pipeline can take in several flags:
  - `--prpe_multi_runs` is used to set the number of iterations to run the `prpe_multi`(Multi-PRPE). Default value is 5.
  - `--model_type` can be `rnn`(aka LSTM) or `transformer`. Defaults to LSTM.
  - `--in_lang` specifies the input language to be translated. We used `qz` for Quechua and `id` for Indonesian. Defaults to Quechua.
- - `--out_lang` specifies the output language to be translated to. We used `es` for Spanish and `en` for English. Defaults to English.
+ - `--out_lang` specifies the output language to be translated to. We used `es` for Spanish and `en` for English. Defaults to Spanish.
  - `--domain` specifies the name of dataset to be used, which should be located in `data/` under the same name. Defaults to religious.
  - `--train_steps` specifies how many steps the model should be trained. Default value is 100,000.
  - `--save_steps` specifies how often the trained model is saved. Default is every 10,000 steps.
