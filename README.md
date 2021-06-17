@@ -43,5 +43,5 @@ The pipeline can take in several flags:
  - `--validate_steps` specifies how often the model should be evaluated against the validation set. Default is every 2000 steps.
  - `--batch_size` is the batch size for training. Default is 64.
  - `--filter_too_long` specifies the max token length of a line in the training set. Any line that passes this value is filtered out. Default is no filtering.
- - 
+ 
 The pipeline will automatically test the model after training is finished and output a BLEU and CHRF score.
